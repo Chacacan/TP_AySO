@@ -1,0 +1,82 @@
+usermod -aG sudo juan
+groups juan
+exit
+groups juan
+visudo
+exit
+ls /etc/sudoers.d/
+cat /etc/sudoers.d/archivo_relevante
+s -l /etc/sudoers /etc/sudoers.d/
+ls -l /etc/sudoers /etc/sudoers.d/
+chmod 440 /etc/sudoers
+chmod 440 /etc/sudoers.d/*
+git clone git@github.com:Chacacan/TP_AySO.git
+apt install git
+git clone git@github.com:Chacacan/TP_AySO.git
+ls
+cd TP_AySO/
+pwd
+ls -l
+cat /etc/os-release
+man grep
+grep HOME_URL/etc/os-release
+grepHOME_URL/etc/os-release
+grep HOME_URL/etc/os-release
+grep HOME_URL /etc/os-release
+grephome_url /etc/os-release
+grep home_url /etc/os-release
+grep <parámetro> Home_url /etc/os-release
+whoami
+echo“Usuario=$(whoami)”>datos_usuario.txt
+echo “Usuario=$(whoami)” > datos_usuario.txt
+cd repogit/
+cd TP_AySO/
+echo “Usuario=$(whoami)” > datos_usuario.txt
+cd repogit/
+cd TP_AySO/
+cd repogit/
+cd TP_AySO/
+echo "Usuario=$(whoami)�"> datos_usuario.txt
+ls
+git add.
+git add .
+gitconfig--globaluser.email"juankof1991@gmail.com"
+git config --global user.email"juankof1991@gmail.com"
+git config --global user.name"Chacacan"
+gitcommit-m"ADD:agregado1erejercicio
+ sobredatos_usuarios.txt"
+git commit -m"ADD:agregado 1er ejercicio
+ sobre datos_usuarios.txt"
+git config --global user.email "juankof19911@gmail.com"
+git commit -m"ADD:agregado 1er ejercicio
+ sobre datos_usuarios.txt"
+gitstatus
+git status
+grep
+grep cpuinfo
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+grep "model name" /proc/cpuinfo | head -n 1 >> datos_usuario.txt
+grep "model name" /proc/cpuinfo
+git push origin main
+git status
+git add datos_usuario.txt
+git commit -m "feat: Añadida información del modelo de CPU"
+git push origin main
+git add archivo_existente
+git commit -m "feat: Añadiendo información de CPU"
+grep -v "nologin" /etc/passwd | head -n 10 | sort -t: -k7 > lista_ordenada
+git add lista_ordenada
+git commit -m "ADD: Listado de usuarios ordenado"
+echo "tcpdump" > comando_dump_net
+echo "man tcpdump" >> comando_dump_net
+git add comando_dump_net
+git commit -m "ADD: Comando para capturar y analizar tráfico de red"
+cat <<EOF >> README.md
+Alumno: <Juan Guillermo Paredes>
+División: <Tdiv 315>
+Turno: <Noche>
+EOF
+
+git add README.md
+git commit -m "docs: A�Juan paredes, tp"
+history -a
